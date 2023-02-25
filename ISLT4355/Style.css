@@ -1,9 +1,13 @@
 div{ background-color:lightgreen;
+    border:10px solid blueviolet;
+    padding:12px;
+    margin:20px;
+    
     background-image:url("Resume.png");
     background-repeat:no-repeat;
+    background-position:center center;
 
-    border:3px green;
-    padding:7px;
-    margin:10px;
+    height:200px;
+    width:200px;
     
 }
