@@ -1,8 +1,9 @@
 div{ background-color:lightgreen;
+    background-image:url("Resume.png");
+    background-repeat:no-repeat;
+
     border:3px green;
     padding:7px;
     margin:10px;
-    background-image:url("Resume.png")
-    background-repeat:no-repeat;
     
 }
