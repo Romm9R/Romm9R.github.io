@@ -1,6 +1,8 @@
 p{ background-color:lightgreen;
-    background-image:url("Resume.png")
     border:3px green;
     padding:7px;
     margin:10px;
+    background-image:url("Resume.png")
+    
+    
 }
