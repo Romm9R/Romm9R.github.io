@@ -3,5 +3,6 @@ div{ background-color:lightgreen;
     padding:7px;
     margin:10px;
     background-image:url("Resume.png")
+    background-repeat:no-repeat;
     
 }
