@@ -11,3 +11,21 @@ div{ background-color:lightgreen;
     width:200px;
     
 }
+    
+@media screen and (max-width:5000px) {
+    #text{
+        width: 560px;
+        float: left;
+       }
+    #resume{
+        width: 300px;
+        float: left;
+       }
+    footer{
+        position: absolute;
+     bottom: 0;
+    }
+    
+ }
+    
+
