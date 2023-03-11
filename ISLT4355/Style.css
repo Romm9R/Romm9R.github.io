@@ -27,5 +27,20 @@ div{ background-color:lightgreen;
     }
     
  }
+ @media screen and (max-width:590px) {
+    #text{
+        width: 100%;
+        float: left;
+       }
+    #resume{
+        width: 70%;
+        float: left;
+       }
+    footer{
+        position: absolute;
+     bottom: 0;
+    }
+    
+ }
     
 
