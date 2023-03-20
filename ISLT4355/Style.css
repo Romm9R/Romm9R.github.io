@@ -1,4 +1,4 @@
-div{ background-color:lightgreen;
+#resume{ background-color:lightgreen;
     border:10px solid blueviolet;
     padding:12px;
     margin:20px;
@@ -10,6 +10,10 @@ div{ background-color:lightgreen;
     height:200px;
     width:200px;
     
+}
+#bottom{
+    position: fixed;
+    bottom: 0;
 }
     
 @media screen and (max-width:5000px) {
