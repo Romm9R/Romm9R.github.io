@@ -1,3 +1,17 @@
+@font-face { 
+
+    font-family: Raleway;
+    
+    src: url("Raleway-VariableFont_wght.ttf");
+    
+    }
+
+p {font-family: Raleway, serif; }
+header {font-family: Raleway, serif; }
+
+
+
+
 #resume{ background-color:lightgreen;
     border:10px solid blueviolet;
     padding:12px;
@@ -47,4 +61,12 @@
     
  }
     
-
+@media print {
+    #hamnav, 
+    #resume {
+        display: none;
+    }
+    @page {
+        margin: 2.54cm;
+    }
+} 
