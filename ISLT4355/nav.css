@@ -1,3 +1,10 @@
+@font-face { 
+
+    font-family: Raleway;
+    
+    src: url("Raleway-VariableFont_wght.ttf");
+    
+    }
 {
     margin:0;
     padding:0;    
@@ -7,6 +14,7 @@
         width: 100%;
         height: 95px;
         background-color: whitesmoke;  
+        font-family: Raleway, serif;
     }
     #bottom {
         width: 100%;
@@ -93,11 +101,13 @@
   }
   
   
-  #hamitems { display: block; }
+  #hamitems { display: block;
+    font-family: Raleway, serif; }
   #hamitems a {
-    
+    font-family: Raleway, serif;
   }
-  #hamitems a:hover { background: #daa0a0; }
+  #hamitems a:hover { background: #daa0a0;
+    font-family: Raleway, serif; }
   
   
   #hamnav label, #hamburger { display: none; }
@@ -110,6 +120,7 @@
       box-sizing: border-box;
       display: block;
       width: 100%;
+      font-family: Raleway, serif;
       
     }
     #hamitems p{
