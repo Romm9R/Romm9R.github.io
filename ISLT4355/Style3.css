@@ -165,3 +165,19 @@ main{
 #pro{
    margin-bottom: 500px;
 }
+
+@media screen and (max-width:260px) {
+#q{
+width: 100%;
+}
+
+#w{
+   width: 100%;
+}
+#e{
+   width: 100%;
+}
+#r{
+   width: 100%;
+}
+}
