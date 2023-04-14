@@ -52,9 +52,30 @@ header {font-family: Raleway, serif; }
         width: 70%;
         float: left;
        }
-    
+       #tab{
+        overflow-x: auto;
+     }
+
+    video {
+        width: 100%;
     }
+}
+@media screen and (max-width:1460px) {
+    #text{
+        width: 100%;
+        float: left;
+       }
     
+    
+    
+    #tab{
+        width: 70%;
+        
+    }
+    video {
+        width 100%;
+    }
+}
  
     
 @media print {
@@ -95,3 +116,39 @@ footer{
     font-family: Raleway, serif; 
     font-size: large;
  }
+
+ #tab{
+    width: 500px;
+
+ }
+
+
+table{
+    border-collapse: collapse;
+    
+}
+
+ Table th{
+    text-align:left;
+    background-color: blanchedalmond;
+    font-family: Raleway, serif;
+    padding: 4px 30px 4px 8px;
+ }
+ Table tr, td {
+    Border: 1px solid #ad8080;
+    padding: 4px 8px;
+    font-family: Raleway, serif;
+ }
+ table tr:nth-child(odd) td{
+    background-color: #e3e3e3;
+ }
+ caption{
+    text-align: left;
+    font-family: Raleway, serif;
+    font-size: larger;
+ }
+
+ main{
+    margin-bottom: 200px;
+ }
+ 

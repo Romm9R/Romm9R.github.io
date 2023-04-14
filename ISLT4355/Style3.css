@@ -19,7 +19,7 @@ h1 { color:#003399;}
    }
    
 }
-#main1{
+#main2{
    font-family: Raleway, serif;
 }
 footer{
@@ -128,6 +128,7 @@ footer{
 
 #pro{
    position:relative;
+
 }
 #projects{
    font-size: xx-large;
@@ -157,4 +158,10 @@ footer{
 #title{
    font-family: Raleway, serif; 
    font-size: large;
+}
+main{
+   margin-bottom: 200px;
+}
+#pro{
+   margin-bottom: 500px;
 }
