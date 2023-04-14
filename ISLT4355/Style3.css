@@ -167,17 +167,11 @@ main{
 }
 
 @media screen and (max-width:260px) {
-#q{
-width: 100%;
-}
-
-#w{
+label{
    width: 100%;
+   font-size: 10vw;
 }
-#e{
-   width: 100%;
 }
-#r{
-   width: 100%;
-}
+label{
+   font-family: Raleway, serif;
 }
