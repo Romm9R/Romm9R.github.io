@@ -12,19 +12,25 @@ header {font-family: Raleway, serif; }
 
 
 
-#resume{ background-color:lightgreen;
-    border:10px solid blueviolet;
+#resume{ background-color:rgb(82, 160, 212);
+    border:5px solid rgb(230, 213, 245);
     padding:12px;
     margin:20px;
     
-    background-image:url("Resume.png");
+    background-image:url("Resumes.png");
     background-repeat:no-repeat;
     background-position:center center;
+    background-size: 100%;
 
-    height:200px;
-    width:200px;
+    height:390px;
+    width:300px;
     
 }
+
+#video{
+    border:5px solid rgb(230, 213, 245);
+}
+
 #bottom{
     position: fixed;
     bottom: 0;
@@ -94,6 +100,7 @@ footer{
     position:fixed;
     bottom: 0;
     padding-bottom: 35px;
+    color: rgb(222, 226, 226);
  }
  #bottom{
     position: fixed;
@@ -119,6 +126,7 @@ footer{
 
  #tab{
     width: 500px;
+    height: 200px;
 
  }
 

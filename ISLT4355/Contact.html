@@ -24,30 +24,60 @@ Tested: Yes
                <link rel="shortcut icon" type="image/jpg" href="images/gravity.jpg">
 </head>
 <body>
+<!-- (A) MENU WRAPPER -->
+<nav id="hamnav">
+    <!-- (B) THE HAMBURGER -->
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+    <!-- (C) MENU ITEMS -->
+    <div id="hamitems">
+    <p id="title">About</p>
+    <ul>
+    <li><a href="https://romm9r.github.io/ISLT4355/index.html">Home</a></li>
+    <li><a href="https://romm9r.github.io/ISLT4355/about.html">About</a></li>
+    <li><a href="https://romm9r.github.io/ISLT4355/project.html">Projects</a>
+        <ul>
+            <li><a href="https://romm9r.github.io/ISLT4355/project.html">Project1</a></li>
+            <li><a href="https://romm9r.github.io/ISLT4355/project.html">Project2</a></li>
+            <li><a href="https://romm9r.github.io/ISLT4355/project.html">Project3</a></li>
+        </ul>
+    </li>
+    <li><a href="https://romm9r.github.io/ISLT4355/rescources.html">Reflection</a></li>
+    <li><a href="https://romm9r.github.io/ISLT4355/Contact.html">Contact</a></li>
+    </ul> 
+    </div>  
+</nav>
+
+
+
+
     <header id="intro">
         
     </header>
     <main>
+        <div>
+            <p id="parag">To contact me, or if you have any questions or requests please enter your information below. Thank you for browsing my site!</p>
+        </div>
         <form action="https://formsubmit.co/44f4ec8446412b11c751a54edcd55ec0" method="post">
        
             <label>First Name</label>
-            <input required name="name" type="text" autofocus>
+            <input required name="name" type="text" autofocus placeholder="First Name">
         
         <div></div>
         <br>
             <label>Last Name</label>
-            <input required name="Last Name" type="text">
+            <input required name="Last Name" type="text" placeholder="Last Name">
        <div></div>
         <br>
         
             <label>Email</label>
-            <input required name="email" type="email">
+            <input required name="email" type="email" placeholder="Youremail@example.com">
         
             <div></div>
             <br>
         
             <label>Message</label>
-            <input required name="message" type="text">
+            <input required name="message" type="text" placeholder="Anything">
             
         
             <div></div>

@@ -52,14 +52,14 @@
         font-size:14px;
         padding: 24px 40px;
         text-decoration: none;
-        background-color: wheat;
-        border: solid #898989;
+        background-color: rgb(164, 247, 247);
+        border: solid #9168a1;
     }
     
     nav ul li ul{
         display: none;
         position: absolute; 
-        background-color: wheat;
+        background-color: rgb(164, 247, 247);
         padding: 24px 0px;
         border-radius: 0px 0px 4px 4px;
     }
@@ -71,7 +71,7 @@
         border-radius: 4px;
     }
     nav ul li ul li:hover {
-        background-color:bisque;
+        background-color:rgb(164, 247, 247);
     }
     @media screen and (max-width:810px) {
       
@@ -106,7 +106,7 @@
   #hamitems a {
     font-family: Raleway, serif;
   }
-  #hamitems a:hover { background: #daa0a0;
+  #hamitems a:hover { background: #90699c;
     font-family: Raleway, serif; }
   
   

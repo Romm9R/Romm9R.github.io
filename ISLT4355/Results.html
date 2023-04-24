@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="Style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+
+Title: Web Page Template, and Home Page
+
+Use:Project 2
+
+Author:Ryan Beyersdorfer
+
+School/Term:2023
+
+Developed:Yes
+
+Tested: Yes
+
+-->
+               <meta charset="utf-8">
+               <title>Results</title>
+               <link rel="shortcut icon" type="image/jpg" href="images/gravity.jpg">
+               <meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+<body>
+    <div id="results"></div>
+    <a href="Contact.html">Back to Form</a>
+    <script>
+        const resultslist = document.getElementById('resluts')
+        new URLSearchParams(window.location.search).forEach((value,
+        name) => {
+            resultslist.append('${name}: ${value}')
+            resultsList.append(document.createElement('br'))
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+</body>
